@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://od1xd5nh4l5m"
 path.s3tc="res://.godot/imported/rolling_boulder_power.png-0f74bfc5f3c36535e1c4191778a808f5.s3tc.ctex"
+path.etc2="res://.godot/imported/rolling_boulder_power.png-0f74bfc5f3c36535e1c4191778a808f5.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/powers/rolling_boulder_power.png"
-dest_files=["res://.godot/imported/rolling_boulder_power.png-0f74bfc5f3c36535e1c4191778a808f5.s3tc.ctex"]
+dest_files=["res://.godot/imported/rolling_boulder_power.png-0f74bfc5f3c36535e1c4191778a808f5.s3tc.ctex", "res://.godot/imported/rolling_boulder_power.png-0f74bfc5f3c36535e1c4191778a808f5.etc2.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

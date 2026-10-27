@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ixj6m0s5heew"
 path.bptc="res://.godot/imported/stump1.png-437abc1b995de2c4bc4635fb8ee4261a.bptc.ctex"
+path.astc="res://.godot/imported/stump1.png-437abc1b995de2c4bc4635fb8ee4261a.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/rooms/hive/the_insatiable/stump1.png"
-dest_files=["res://.godot/imported/stump1.png-437abc1b995de2c4bc4635fb8ee4261a.bptc.ctex"]
+dest_files=["res://.godot/imported/stump1.png-437abc1b995de2c4bc4635fb8ee4261a.bptc.ctex", "res://.godot/imported/stump1.png-437abc1b995de2c4bc4635fb8ee4261a.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dde7ummld04u5"
 path.bptc="res://.godot/imported/sunken_statue.png-70aa6496dd3a57ba75e64824d29818cd.bptc.ctex"
+path.astc="res://.godot/imported/sunken_statue.png-70aa6496dd3a57ba75e64824d29818cd.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/events/sunken_statue.png"
-dest_files=["res://.godot/imported/sunken_statue.png-70aa6496dd3a57ba75e64824d29818cd.bptc.ctex"]
+dest_files=["res://.godot/imported/sunken_statue.png-70aa6496dd3a57ba75e64824d29818cd.bptc.ctex", "res://.godot/imported/sunken_statue.png-70aa6496dd3a57ba75e64824d29818cd.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

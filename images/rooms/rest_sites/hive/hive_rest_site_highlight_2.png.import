@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6r4lbgismyr2"
 path.s3tc="res://.godot/imported/hive_rest_site_highlight_2.png-6c9fd54361d6a6ac6353ed3bb04f0361.s3tc.ctex"
+path.etc2="res://.godot/imported/hive_rest_site_highlight_2.png-6c9fd54361d6a6ac6353ed3bb04f0361.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/rooms/rest_sites/hive/hive_rest_site_highlight_2.png"
-dest_files=["res://.godot/imported/hive_rest_site_highlight_2.png-6c9fd54361d6a6ac6353ed3bb04f0361.s3tc.ctex"]
+dest_files=["res://.godot/imported/hive_rest_site_highlight_2.png-6c9fd54361d6a6ac6353ed3bb04f0361.s3tc.ctex", "res://.godot/imported/hive_rest_site_highlight_2.png-6c9fd54361d6a6ac6353ed3bb04f0361.etc2.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

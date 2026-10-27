@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbfvqml35a0vx"
 path.s3tc="res://.godot/imported/tag_team_power.png-d559a06e39c1e302685f6fa43b413725.s3tc.ctex"
+path.etc2="res://.godot/imported/tag_team_power.png-d559a06e39c1e302685f6fa43b413725.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/powers/tag_team_power.png"
-dest_files=["res://.godot/imported/tag_team_power.png-d559a06e39c1e302685f6fa43b413725.s3tc.ctex"]
+dest_files=["res://.godot/imported/tag_team_power.png-d559a06e39c1e302685f6fa43b413725.s3tc.ctex", "res://.godot/imported/tag_team_power.png-d559a06e39c1e302685f6fa43b413725.etc2.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

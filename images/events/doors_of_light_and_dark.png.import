@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://v1ovbkxwt3y6"
 path.bptc="res://.godot/imported/doors_of_light_and_dark.png-fb5b362ce31e67b2146f1207b0e1b303.bptc.ctex"
+path.astc="res://.godot/imported/doors_of_light_and_dark.png-fb5b362ce31e67b2146f1207b0e1b303.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/events/doors_of_light_and_dark.png"
-dest_files=["res://.godot/imported/doors_of_light_and_dark.png-fb5b362ce31e67b2146f1207b0e1b303.bptc.ctex"]
+dest_files=["res://.godot/imported/doors_of_light_and_dark.png-fb5b362ce31e67b2146f1207b0e1b303.bptc.ctex", "res://.godot/imported/doors_of_light_and_dark.png-fb5b362ce31e67b2146f1207b0e1b303.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

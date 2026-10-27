@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm8fi8un7hg7u"
 path.bptc="res://.godot/imported/glory_04_a.png-302376d8a55d1443ee4359a195c93979.bptc.ctex"
+path.astc="res://.godot/imported/glory_04_a.png-302376d8a55d1443ee4359a195c93979.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/rooms/glory/glory_04_a.png"
-dest_files=["res://.godot/imported/glory_04_a.png-302376d8a55d1443ee4359a195c93979.bptc.ctex"]
+dest_files=["res://.godot/imported/glory_04_a.png-302376d8a55d1443ee4359a195c93979.bptc.ctex", "res://.godot/imported/glory_04_a.png-302376d8a55d1443ee4359a195c93979.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

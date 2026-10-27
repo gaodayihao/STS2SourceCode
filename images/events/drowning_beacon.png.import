@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://k056emkn3anq"
 path.bptc="res://.godot/imported/drowning_beacon.png-04593d65a373ae3b169259dec20bdc24.bptc.ctex"
+path.astc="res://.godot/imported/drowning_beacon.png-04593d65a373ae3b169259dec20bdc24.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/events/drowning_beacon.png"
-dest_files=["res://.godot/imported/drowning_beacon.png-04593d65a373ae3b169259dec20bdc24.bptc.ctex"]
+dest_files=["res://.godot/imported/drowning_beacon.png-04593d65a373ae3b169259dec20bdc24.bptc.ctex", "res://.godot/imported/drowning_beacon.png-04593d65a373ae3b169259dec20bdc24.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

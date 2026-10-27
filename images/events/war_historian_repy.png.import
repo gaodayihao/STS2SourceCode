@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg7bk7yejsrev"
 path.bptc="res://.godot/imported/war_historian_repy.png-06170a44f29732872874f68282575fa4.bptc.ctex"
+path.astc="res://.godot/imported/war_historian_repy.png-06170a44f29732872874f68282575fa4.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/events/war_historian_repy.png"
-dest_files=["res://.godot/imported/war_historian_repy.png-06170a44f29732872874f68282575fa4.bptc.ctex"]
+dest_files=["res://.godot/imported/war_historian_repy.png-06170a44f29732872874f68282575fa4.bptc.ctex", "res://.godot/imported/war_historian_repy.png-06170a44f29732872874f68282575fa4.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

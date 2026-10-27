@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://8dd5xjue201h"
 path.bptc="res://.godot/imported/soul_fysh_boss.png-bee585a04014ef9e967e78b80c319f47.bptc.ctex"
+path.astc="res://.godot/imported/soul_fysh_boss.png-bee585a04014ef9e967e78b80c319f47.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/ui/run_history/soul_fysh_boss.png"
-dest_files=["res://.godot/imported/soul_fysh_boss.png-bee585a04014ef9e967e78b80c319f47.bptc.ctex"]
+dest_files=["res://.godot/imported/soul_fysh_boss.png-bee585a04014ef9e967e78b80c319f47.bptc.ctex", "res://.godot/imported/soul_fysh_boss.png-bee585a04014ef9e967e78b80c319f47.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

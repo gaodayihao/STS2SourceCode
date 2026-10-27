@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://7uqyl6xr1kqa"
 path.s3tc="res://.godot/imported/burrowed_power.png-3b6205b4e030961c528d0daaf6501f07.s3tc.ctex"
+path.etc2="res://.godot/imported/burrowed_power.png-3b6205b4e030961c528d0daaf6501f07.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/powers/burrowed_power.png"
-dest_files=["res://.godot/imported/burrowed_power.png-3b6205b4e030961c528d0daaf6501f07.s3tc.ctex"]
+dest_files=["res://.godot/imported/burrowed_power.png-3b6205b4e030961c528d0daaf6501f07.s3tc.ctex", "res://.godot/imported/burrowed_power.png-3b6205b4e030961c528d0daaf6501f07.etc2.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

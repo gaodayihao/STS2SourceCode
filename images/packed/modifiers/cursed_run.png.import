@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://babrngjvjfsbp"
 path.bptc="res://.godot/imported/cursed_run.png-9c48844d2ec1fb0bd7d5b8fc870e52cf.bptc.ctex"
+path.astc="res://.godot/imported/cursed_run.png-9c48844d2ec1fb0bd7d5b8fc870e52cf.astc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/packed/modifiers/cursed_run.png"
-dest_files=["res://.godot/imported/cursed_run.png-9c48844d2ec1fb0bd7d5b8fc870e52cf.bptc.ctex"]
+dest_files=["res://.godot/imported/cursed_run.png-9c48844d2ec1fb0bd7d5b8fc870e52cf.bptc.ctex", "res://.godot/imported/cursed_run.png-9c48844d2ec1fb0bd7d5b8fc870e52cf.astc.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false

@@ -4,6 +4,7 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqliha840b7m5"
 path.s3tc="res://.godot/imported/ceremonial_beast_boss_outline.png-8dad919f871aa3329bb76e2892ac98db.s3tc.ctex"
+path.etc2="res://.godot/imported/ceremonial_beast_boss_outline.png-8dad919f871aa3329bb76e2892ac98db.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://images/ui/run_history/ceremonial_beast_boss_outline.png"
-dest_files=["res://.godot/imported/ceremonial_beast_boss_outline.png-8dad919f871aa3329bb76e2892ac98db.s3tc.ctex"]
+dest_files=["res://.godot/imported/ceremonial_beast_boss_outline.png-8dad919f871aa3329bb76e2892ac98db.s3tc.ctex", "res://.godot/imported/ceremonial_beast_boss_outline.png-8dad919f871aa3329bb76e2892ac98db.etc2.ctex"]
 
 [params]
 
@@ -28,6 +29,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false
